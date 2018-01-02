@@ -53,12 +53,38 @@
 #    print(x)
 
 
-buttcrack = 5
+# buttcrack = 5
+# 
+# while buttcrack < 10:
+#    print (buttcrack)
+#    buttcrack += 1
+ 
+# #----------------------------------------
+# #comment and break example
+# #this finds a magic num
+# magicnum=26
+# 
+# print(9, "xavier") #to print out unlike things (ie int and string) use the comma instead of +
+# 
+# #+ only works when the 2 things are alike 
+# for n in range (101):
+   # if n is magicnum:
+      # print (n," is the magic number")
+#       break
+#    else:
+#       print(n)
+    
+#----------------------------------------
+#continue example:
+numbersTaken = [2,3,4,5,8]
+print ("heres the numbers still avaliable:")
+for n in range (1,20):
+   if n in numbersTaken:
+     continue
+   print(n)
 
-while buttcrack < 10:
-   print (buttcrack)
-   buttcrack += 1
-   
+    
+    
 
 
  

@@ -76,12 +76,62 @@
 #flexiable number of arguments example
 #basically how to create a func that can take any number of arguments
 
-def add_numbers(*args): #common naming convention is to name flexiable arguments *args
-   total = 0
-   for a in args:
-      total += a
-   print(total)
+# def add_numbers(*args): #common naming convention is to name flexiable arguments *args
+#    total = 0
+#    for a in args:
+#       total += a
+#    print(total)
+#    
+#  add_numbers(3)
+#  add_numbers(3,44)
+#  add_numbers(78,44)
+
+
+#-------------------------------------------------------
+#unpacking arguments example
+
+# def health_calc(age,apples_ate,cigs_smoked):
+#    answer= (100-age)+ (apples_ate*3.5) - (cigs_smoked * 2)
+#    print ("answer = ", answer)
+#    
+# data= [20,45,0]
+# health_calc(data[0],data[1],data[2])
+# health_calc(*data)#unpacked arguments (ie sending a whole array (list) to a function)
+#data*= accepts multiuple arguments like in a func, *data= send all arguments 
+
+#-------------------------------------------------------
+#Sets example
+#this acts the same as a linked list Set form Java 
+#Sets can have as many things inside of it except duplicates and it remembers the order
+
+# groceries= {"milk","cereal","apples","beer","jam","milk" }
+# print(groceries)
+# 
+# if "milk" in groceries:
+#    print("you already have milk in the set(groceries list)")
+# else:
+#    print("oh yea you need milk")
+
+
+#-------------------------------------------------------
+#Dictionary example 
+#format = (key : value)
+
+# classmate = {"Tony": " cool but smells", "Emma": " sits behind me", "Jimmy": " sits in front of me"}  
+
+#print(classmate)
+#print(classmate["Emma"])
+
+# for key, value, in classmate.items():
+#    print(key+value)
+ 
+ 
+#-------------------------------------------------------   
+#Module example
+
+def fish():
+   print("I am a tunafish")
+
+
+
    
- add_numbers(3)
- add_numbers(3,44)
- add_numbers(78,44)

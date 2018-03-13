@@ -4,7 +4,7 @@
 while true:
    try: 
        number = int(input ("whATS YOUR FAV  number? \n"))
-             #print (18/number)
+             print (18/number)
              break
               
          except ValueError:
